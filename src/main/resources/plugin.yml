@@ -1,0 +1,24 @@
+name: fEssencials
+version: '${project.version}'
+main: com.fessencials.fEssencials
+commands:
+  gm:
+    usage: "Use /gm para modificar seu gamemode."
+  vanish:
+    usage: "Use /vanish para ficar invisível para todos os players."
+    aliases:
+      - vn
+  fly:
+    usage: "Use /fly para ativar modo de voo."
+    aliases:
+      - f
+  flyspeed:
+    usage: "Use /flyspeed <speed> para ativar um voo mais rápido."
+    aliases:
+      - fs
+  time:
+    usage: "Use /time <set:stop:start> para modificar o tempo do mundo."
+    aliases:
+      - t
+  ping:
+    usage: "Use /ping para visualizar seu ping."
